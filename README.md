@@ -8,6 +8,7 @@ Python Extension installed into VS Code for linting
 For Apple Silicon, you really need to use a virtual environment to run sketches. Otherwise, the installation of modules will fail.
 
 Create the VENV 
+    python3 -m venv .venv
 
 and then activate it
     source /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/Processing4SoundOnAppleSiliconMacs/venv/bin/activate
