@@ -1,0 +1,289 @@
+george@Georges-Mac-mini PythonAudioPlaySampleWav %  source /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/activate
+/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/p5Test.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/p5Test.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py
+Traceback (most recent call last):
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 3, in <module>
+    add_library("sound")
+NameError: name 'add_library' is not defined
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
+SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
+mpleWav.py
+Traceback (most recent call last):
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 26, in <module>
+    run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/p5/sketch/userspace.py", line 226, in run
+    app.run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/_default_app.py", line 60, in run
+    return default_app.run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/application.py", line 166, in run
+    return self._backend._vispy_run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 189, in _vispy_run
+    self._vispy_process_events()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 178, in _vispy_process_events
+    timer._tick()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 517, in _tick
+    self._vispy_timer._timeout()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/timer.py", line 160, in _timeout
+    self.events.timeout(
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 453, in __call__
+    self._invoke_callback(cb, event)
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 471, in _invoke_callback
+    _handle_exception(self.ignore_callback_errors,
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 469, in _invoke_callback
+    cb(event)
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/p5/sketch/Vispy2DRenderer/base.py", line 100, in on_timer
+    self.setup_method()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 12, in setup
+    my_sound = load_sound("sample.wav") 
+NameError: name 'load_sound' is not defined
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % pip install playsound==1.2.2
+
+Collecting playsound==1.2.2
+  Downloading playsound-1.2.2-py2.py3-none-any.whl.metadata (3.3 kB)
+Downloading playsound-1.2.2-py2.py3-none-any.whl (6.0 kB)
+Installing collected packages: playsound
+Successfully installed playsound-1.2.2
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
+SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
+mpleWav.py
+Traceback (most recent call last):
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 26, in <module>
+    run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/p5/sketch/userspace.py", line 226, in run
+    app.run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/_default_app.py", line 60, in run
+    return default_app.run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/application.py", line 166, in run
+    return self._backend._vispy_run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 189, in _vispy_run
+    self._vispy_process_events()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 178, in _vispy_process_events
+    timer._tick()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 517, in _tick
+    self._vispy_timer._timeout()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/timer.py", line 160, in _timeout
+    self.events.timeout(
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 453, in __call__
+    self._invoke_callback(cb, event)
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 471, in _invoke_callback
+    _handle_exception(self.ignore_callback_errors,
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 469, in _invoke_callback
+    cb(event)
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/p5/sketch/Vispy2DRenderer/base.py", line 100, in on_timer
+    self.setup_method()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 12, in setup
+    my_sound = load_sound("sample.wav") 
+NameError: name 'load_sound' is not defined
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
+SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
+mpleWav.py
+Traceback (most recent call last):
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 21, in <module>
+    run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/p5/sketch/userspace.py", line 226, in run
+    app.run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/_default_app.py", line 60, in run
+    return default_app.run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/application.py", line 166, in run
+    return self._backend._vispy_run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 189, in _vispy_run
+    self._vispy_process_events()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 178, in _vispy_process_events
+    timer._tick()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 517, in _tick
+    self._vispy_timer._timeout()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/timer.py", line 160, in _timeout
+    self.events.timeout(
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 453, in __call__
+    self._invoke_callback(cb, event)
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 471, in _invoke_callback
+    _handle_exception(self.ignore_callback_errors,
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 469, in _invoke_callback
+    cb(event)
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/p5/sketch/Vispy2DRenderer/base.py", line 114, in on_timer
+    self.draw_method()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 13, in draw
+    text("Click anywhere to play audio", 110, 260)
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/p5/core/font.py", line 92, in text
+    return p5.renderer.text(text_string, position, wrap_at)
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/p5/sketch/Vispy2DRenderer/renderer2d.py", line 430, in text
+    size = self.style.font_family.getsize(text_string)
+AttributeError: 'FreeTypeFont' object has no attribute 'getsize'
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % pip install "pillow<10.0.0"
+
+Collecting pillow<10.0.0
+  Downloading Pillow-9.5.0-cp39-cp39-macosx_11_0_arm64.whl.metadata (9.5 kB)
+Downloading Pillow-9.5.0-cp39-cp39-macosx_11_0_arm64.whl (3.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 18.5 MB/s  0:00:00
+Installing collected packages: pillow
+  Attempting uninstall: pillow
+    Found existing installation: pillow 11.3.0
+    Uninstalling pillow-11.3.0:
+      Successfully uninstalled pillow-11.3.0
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+p5 0.8.4 requires PyOpenGL-accelerate==3.1.7, which is not installed.
+p5 0.8.4 requires Pillow==9.0.1, but you have pillow 9.5.0 which is incompatible.
+p5 0.8.4 requires PyOpenGL==3.1.6, but you have pyopengl 3.1.10 which is incompatible.
+p5 0.8.4 requires vispy==0.10.0, but you have vispy 0.16.2 which is incompatible.
+Successfully installed pillow-9.5.0
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
+SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
+mpleWav.py
+Playing sound...
+Traceback (most recent call last):
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 21, in <module>
+    run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/p5/sketch/userspace.py", line 226, in run
+    app.run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/_default_app.py", line 60, in run
+    return default_app.run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/application.py", line 166, in run
+    return self._backend._vispy_run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 189, in _vispy_run
+    self._vispy_process_events()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 178, in _vispy_process_events
+    timer._tick()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 517, in _tick
+    self._vispy_timer._timeout()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/timer.py", line 160, in _timeout
+    self.events.timeout(
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 453, in __call__
+    self._invoke_callback(cb, event)
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 471, in _invoke_callback
+    _handle_exception(self.ignore_callback_errors,
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 469, in _invoke_callback
+    cb(event)
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/p5/sketch/Vispy2DRenderer/base.py", line 122, in on_timer
+    function(event)
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/p5/sketch/userspace.py", line 93, in fixed_func
+    return_value = func()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 18, in mouse_pressed
+    playsound("sample.wav")
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/playsound.py", line 55, in _playsoundOSX
+    from AppKit     import NSSound
+ModuleNotFoundError: No module named 'AppKit'
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % pip install pyobjc-framework-Cocoa
+
+Collecting pyobjc-framework-Cocoa
+  Downloading pyobjc_framework_cocoa-12.0.tar.gz (2.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.8/2.8 MB 28.0 MB/s  0:00:00
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+INFO: pip is looking at multiple versions of pyobjc-framework-cocoa to determine which version is compatible with other requirements. This could take a while.
+  Downloading pyobjc_framework_cocoa-11.1-cp39-cp39-macosx_10_9_universal2.whl.metadata (2.5 kB)
+Collecting pyobjc-core>=11.1 (from pyobjc-framework-Cocoa)
+  Downloading pyobjc_core-11.1-cp39-cp39-macosx_10_9_universal2.whl.metadata (2.7 kB)
+Downloading pyobjc_framework_cocoa-11.1-cp39-cp39-macosx_10_9_universal2.whl (388 kB)
+Downloading pyobjc_core-11.1-cp39-cp39-macosx_10_9_universal2.whl (677 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 677.1/677.1 kB 31.0 MB/s  0:00:00
+Installing collected packages: pyobjc-core, pyobjc-framework-Cocoa
+Successfully installed pyobjc-core-11.1 pyobjc-framework-Cocoa-11.1
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
+SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
+mpleWav.py
+Playing sound...
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
+SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
+mpleWav.py
+Playing sound...
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
+SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
+mpleWav.py
+Playing sound...
+Traceback (most recent call last):
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 21, in <module>
+    run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/p5/sketch/userspace.py", line 226, in run
+    app.run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/_default_app.py", line 60, in run
+    return default_app.run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/application.py", line 166, in run
+    return self._backend._vispy_run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 189, in _vispy_run
+    self._vispy_process_events()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 178, in _vispy_process_events
+    timer._tick()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 517, in _tick
+    self._vispy_timer._timeout()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/timer.py", line 160, in _timeout
+    self.events.timeout(
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 453, in __call__
+    self._invoke_callback(cb, event)
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 471, in _invoke_callback
+    _handle_exception(self.ignore_callback_errors,
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 469, in _invoke_callback
+    cb(event)
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/p5/sketch/Vispy2DRenderer/base.py", line 122, in on_timer
+    function(event)
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/p5/sketch/userspace.py", line 93, in fixed_func
+    return_value = func()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 18, in mouse_pressed
+    playsound("5secsample.wav")
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/playsound.py", line 67, in _playsoundOSX
+    raise IOError('Unable to load sound named: ' + sound)
+OSError: Unable to load sound named: file:///Users/george/Documents/GitHub/PythonAudioPlaySampleWav/5secsample.wav
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
+SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
+mpleWav.py
+Playing sound...
+Traceback (most recent call last):
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 21, in <module>
+    run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/p5/sketch/userspace.py", line 226, in run
+    app.run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/_default_app.py", line 60, in run
+    return default_app.run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/application.py", line 166, in run
+    return self._backend._vispy_run()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 189, in _vispy_run
+    self._vispy_process_events()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 178, in _vispy_process_events
+    timer._tick()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/backends/_glfw.py", line 517, in _tick
+    self._vispy_timer._timeout()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/app/timer.py", line 160, in _timeout
+    self.events.timeout(
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 453, in __call__
+    self._invoke_callback(cb, event)
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 471, in _invoke_callback
+    _handle_exception(self.ignore_callback_errors,
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/vispy/util/event.py", line 469, in _invoke_callback
+    cb(event)
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/p5/sketch/Vispy2DRenderer/base.py", line 122, in on_timer
+    function(event)
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/p5/sketch/userspace.py", line 93, in fixed_func
+    return_value = func()
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 18, in mouse_pressed
+    playsound("5secsample.wav")
+  File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/playsound.py", line 67, in _playsoundOSX
+    raise IOError('Unable to load sound named: ' + sound)
+OSError: Unable to load sound named: file:///Users/george/Documents/GitHub/PythonAudioPlaySampleWav/5secsample.wav
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
+SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
+mpleWav.py
+Playing sound...
+Playing sound...
+Playing sound...
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % pip install playsound3
+Collecting playsound3
+  Downloading playsound3-3.2.8-py3-none-any.whl.metadata (4.6 kB)
+Downloading playsound3-3.2.8-py3-none-any.whl (9.7 kB)
+Installing collected packages: playsound3
+Successfully installed playsound3-3.2.8
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Docu
+ments/GitHub/PythonAudioPlaySampleWav/venv/threadedSound.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
+SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/A_Simple_p5_Test.
+py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
+SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
+mpleWav.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
+SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/threadedSound.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
+SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/threadedSound.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
+SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/threadedSound.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % 
