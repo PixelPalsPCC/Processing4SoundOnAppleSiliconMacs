@@ -1,5 +1,8 @@
 from p5 import *
 from playsound import playsound  # Import the independent sound module
+import os 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+AUDIO_PATH = os.path.join(SCRIPT_DIR, "sample.wav")
 
 def setup():
     size(400, 400)
@@ -15,7 +18,7 @@ def draw():
 def mouse_pressed():
     print("Playing sound...")
     # Provide the path to your file relative to your execution folder
-    playsound("sample.wav")
+    playsound(AUDIO_PATH)
 
 if __name__ == '__main__':
     run()
