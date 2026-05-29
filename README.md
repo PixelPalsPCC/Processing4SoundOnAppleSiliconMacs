@@ -19,7 +19,7 @@ and then activate it
 Requires install Pip modules
 Requires install Appkit
 
-   #pip install p5
+   pip install p5 --no-deps
    pip install numpy vispy skia-python pillow glfw hsluv kiwisolver freetype-py requests PyOpenGL
    pip install "urllib3<2.0"
    pip install playsound==1.2.2
