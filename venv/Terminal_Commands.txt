@@ -44,9 +44,7 @@ Collecting playsound==1.2.2
 Downloading playsound-1.2.2-py2.py3-none-any.whl (6.0 kB)
 Installing collected packages: playsound
 Successfully installed playsound-1.2.2
-(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
-SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
-mpleWav.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py
 Traceback (most recent call last):
   File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 26, in <module>
     run()
@@ -75,9 +73,7 @@ Traceback (most recent call last):
   File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 12, in setup
     my_sound = load_sound("sample.wav") 
 NameError: name 'load_sound' is not defined
-(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
-SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
-mpleWav.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py
 Traceback (most recent call last):
   File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 21, in <module>
     run()
@@ -127,9 +123,7 @@ p5 0.8.4 requires Pillow==9.0.1, but you have pillow 9.5.0 which is incompatible
 p5 0.8.4 requires PyOpenGL==3.1.6, but you have pyopengl 3.1.10 which is incompatible.
 p5 0.8.4 requires vispy==0.10.0, but you have vispy 0.16.2 which is incompatible.
 Successfully installed pillow-9.5.0
-(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
-SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
-mpleWav.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py
 Playing sound...
 Traceback (most recent call last):
   File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 21, in <module>
@@ -180,17 +174,11 @@ Downloading pyobjc_core-11.1-cp39-cp39-macosx_10_9_universal2.whl (677 kB)
    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 677.1/677.1 kB 31.0 MB/s  0:00:00
 Installing collected packages: pyobjc-core, pyobjc-framework-Cocoa
 Successfully installed pyobjc-core-11.1 pyobjc-framework-Cocoa-11.1
-(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
-SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
-mpleWav.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py
 Playing sound...
-(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
-SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
-mpleWav.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py
 Playing sound...
-(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
-SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
-mpleWav.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py
 Playing sound...
 Traceback (most recent call last):
   File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 21, in <module>
@@ -224,9 +212,7 @@ Traceback (most recent call last):
   File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/playsound.py", line 67, in _playsoundOSX
     raise IOError('Unable to load sound named: ' + sound)
 OSError: Unable to load sound named: file:///Users/george/Documents/GitHub/PythonAudioPlaySampleWav/5secsample.wav
-(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
-SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
-mpleWav.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py
 Playing sound...
 Traceback (most recent call last):
   File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py", line 21, in <module>
@@ -260,9 +246,7 @@ Traceback (most recent call last):
   File "/Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/lib/python3.9/site-packages/playsound.py", line 67, in _playsoundOSX
     raise IOError('Unable to load sound named: ' + sound)
 OSError: Unable to load sound named: file:///Users/george/Documents/GitHub/PythonAudioPlaySampleWav/5secsample.wav
-(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
-SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
-mpleWav.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySampleWav.py
 Playing sound...
 Playing sound...
 Playing sound...
@@ -274,16 +258,11 @@ Installing collected packages: playsound3
 Successfully installed playsound3-3.2.8
 (venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Docu
 ments/GitHub/PythonAudioPlaySampleWav/venv/threadedSound.py
-(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
-SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/A_Simple_p5_Test.
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/A_Simple_p5_Test.
 py
-(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
-SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/PythonAudioPlaySa
 mpleWav.py
-(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
-SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/threadedSound.py
-(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
-SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/threadedSound.py
-(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlay
-SampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/threadedSound.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/threadedSound.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/threadedSound.py
+(venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/bin/python /Users/george/Documents/GitHub/PythonAudioPlaySampleWav/venv/threadedSound.py
 (venv) george@Georges-Mac-mini PythonAudioPlaySampleWav % 
